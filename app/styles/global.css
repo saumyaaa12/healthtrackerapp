@@ -1,0 +1,112 @@
+/* GLOBAL CONTAINER */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #FFF9F2; /* soft happy background */
+    color: #333;
+  }
+  
+  /* CONTAINER FOR EACH PAGE */
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  /* HEADINGS */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #FF6B6B; /* playful pink-red */
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+    color: #4ECDC4; /* soft teal */
+    margin-bottom: 10px;
+  }
+  
+  /* CARDS */
+  .card {
+    background: #FFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* BUTTONS */
+  .button {
+    background: linear-gradient(90deg, #FFD700, #FF8C00); /* sunny gradient */
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  /* TEXTAREAS */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  /* PARAGRAPHS */
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* HISTORY SECTION */
+  .card p {
+    background: #FFF3E0; /* light orange background for happy vibes */
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  
+  /* INPUT FIELDS */
+  input[type="number"] {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 60px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  /* SCROLLBAR FOR HISTORY */
+  .card::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .card::-webkit-scrollbar-thumb {
+    background: #FF6B6B;
+    border-radius: 10px;
+  }
+  
+  .card::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
